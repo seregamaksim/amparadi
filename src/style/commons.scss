@@ -1,0 +1,15 @@
+@import 'normalize';
+@import 'node_modules/swiper/src/swiper';
+
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/base';
+
+@import 'layout/header';
+
+@import 'blocks/main-menu/main-menu';
+@import 'blocks/submenu/submenu';
+
+
+
+@import 'pages/index';

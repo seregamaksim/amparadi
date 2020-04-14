@@ -1,0 +1,30 @@
+.main-menu {
+  display: flex;
+}
+.main-menu__item {
+  position: relative;
+  margin-right: 26px;
+}
+.main-menu__item:last-child {
+  margin-right: 0;
+}
+
+.main-menu__item-link {
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  color: $white;
+  transition: color 0.3s ease;
+  padding-bottom: 16px;
+}
+.main-menu__item-link--active {
+  color: $beige;
+  font-weight: 700;
+}
+.main-menu__item-link:hover,
+.main-menu__item-link:focus {
+  color: $beige;
+}
+.main-menu__item:hover .main-menu__item-submenu {
+  display: block;
+}

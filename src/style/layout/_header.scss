@@ -1,0 +1,36 @@
+.page-header {
+  background-color: $gray;
+}
+.page-header__top {
+  text-align: right;
+}
+.page-header__login {
+  position: relative;
+  padding-right: 34px;
+  font-size: 12px;
+  line-height: 24px;
+  color: $white;
+  transition: color 0.3s ease;
+}
+.page-header__login:hover,
+.page-header__login:focus {
+  color: $beige;
+}
+.page-header__login::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 9px;
+  height: 13px;
+  background: url('/images/icon/lock.svg') no-repeat center;
+  background-size: cover;
+}
+.page-header__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  // padding-bottom: 19px;
+}

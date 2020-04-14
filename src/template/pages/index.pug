@@ -1,0 +1,35 @@
+extends ../_template.pug
+
+block variables
+ - var title = 'Lampadari contemporanei'
+ - var bodyClass = 'home-page'
+block content
+  .home-page__fullpage
+    include ../layout/header
+    main.home-page__main
+      h1.visually-hidden Lampadari contemporanei
+      section.home-page__main-slider.main-slider
+        .main-slider__container.swiper-container
+          .main-slider__wrapper.swiper-wrapper
+            .main-slider__slide.swiper-slide
+              picture
+                source(srcset="/images/content/slider/slider-img1.webp", type="image/webp")
+                img.main-slider__slide-img(src="/images/content/slider/slider-img1.png", alt="")
+              .main-slider__slide-description-wrap
+                h2.main-slider__slide-description-title Lampadari contemporanei
+                p.main-slider__slide-description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+            .main-slider__slide.swiper-slide
+              picture
+                source(srcset="/images/content/slider/slider-img1.webp", type="image/webp")
+                img.main-slider__slide-img(src="/images/content/slider/slider-img1.png", alt="")
+              .main-slider__slide-description-wrap
+                h2.main-slider__slide-description-title Lampadari contemporanei
+                p.main-slider__slide-description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+            .main-slider__slide.swiper-slide
+              picture
+                source(srcset="/images/content/slider/slider-img1.webp", type="image/webp")
+                img.main-slider__slide-img(src="/images/content/slider/slider-img1.png", alt="")
+              .main-slider__slide-description-wrap
+                h2.main-slider__slide-description-title Lampadari contemporanei
+                p.main-slider__slide-description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore
+          .swiper-pagination

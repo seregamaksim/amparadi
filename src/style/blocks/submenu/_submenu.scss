@@ -1,0 +1,27 @@
+.submenu {
+  position: absolute;
+  left: -15px;
+  z-index: 2;
+  display: none;
+  padding: 12px 10px 10px;
+  background-color: $gray;
+  min-width: 150px;
+}
+.submenu__item {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 4px;
+  padding-left: 6px;
+}
+.submenu__item:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+.submenu__item-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: $white;
+  transition: color 0.3s ease;
+}
+.submenu__item-link:hover {
+  color: $beige;
+}
