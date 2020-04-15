@@ -23,3 +23,25 @@
   width: 100%;
   max-width: 320px;
 }
+@media (max-width: 1150px) {
+  .page-footer__wrap {
+    max-width: 250px;
+  }
+}
+@media (max-width: 900px) {
+  .page-footer__container {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 680px) {
+  .page-footer__bottom {
+    flex-direction: column-reverse;
+  }
+  .page-footer__wrap {
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .page-footer__social {
+    margin-bottom: 5px;
+  }
+}

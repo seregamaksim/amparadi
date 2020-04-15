@@ -40,3 +40,36 @@
 .footer-description__button {
   max-width: 184px;
 }
+@media (max-width: 1150px) {
+  .footer-description {
+    max-width: none;
+  }
+  .footer-description__item {
+    margin-right: 25px;
+    min-width: auto;
+  }
+  .footer-description__button,
+  .footer-description__input {
+    max-width: none;
+  }
+}
+@media (max-width: 900px) {
+  .footer-description {
+    flex-direction: column;
+  }
+  .footer-description__item {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footer-description__item:last-child {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .footer-description__item-title,
+  .footer-description__item-title--mb-23 {
+    margin-bottom: 5px;
+  }
+  // .footer-description__item--text {
+  //   display: none;
+  // }
+}

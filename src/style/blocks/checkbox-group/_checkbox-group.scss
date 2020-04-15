@@ -16,6 +16,7 @@
   position: relative;
   padding-left: 16px;
   cursor: pointer;
+  text-align: left;
 }
 .checkbox-group__checbox[type="checkbox"]:checked + label::before,
 .checkbox-group__checbox[type="checkbox"]:not(:checked) + label::before {

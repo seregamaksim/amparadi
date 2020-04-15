@@ -25,3 +25,19 @@
 .submenu__item-link:hover {
   color: $beige;
 }
+@media (max-width: 768px) {
+  .submenu {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 1s ease, opacity 0.1s ease;
+  }
+  .submenu--active {
+    display: block;
+    left: 0;
+    padding: 0;
+    position: relative;
+    max-height: 1000px;
+    opacity: 1;
+    transition: max-height 1s ease, opacity 0.1s ease;
+  }
+}

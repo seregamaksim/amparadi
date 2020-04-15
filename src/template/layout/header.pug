@@ -5,12 +5,14 @@ header.page-header
     .page-header__bottom
       a.page-header__logo(href="/")
         img.page-header__logo-img(src="/images/icon/logo.png", alt="Logo company" width="283")
+      button.burger-menu
+        span.burger-menu__line
       nav.page-header__nav
         ul.page-header__main-menu.main-menu
           li.main-menu__item
             a.main-menu__item-link.main-menu__item-link--active(href="#") HOME
-          li.main-menu__item
-            a.main-menu__item-link(href="#") AZIENDA
+          li.main-menu__item.main-menu__item--fake
+            span.main-menu__item-link.main-menu__item-link--fake AZIENDA
             ul.main-menu__item-submenu.submenu
               li.submenu__item
                 a.submenu__item-link(href="#") STORIA

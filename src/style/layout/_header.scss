@@ -34,3 +34,31 @@
   align-items: baseline;
   // padding-bottom: 19px;
 }
+@media (max-width: 900px) {
+  .page-header__logo-img {
+    width: 170px;
+  }
+}
+@media (max-width: 768px) {
+  .page-header__bottom {
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  .page-header__nav {
+    position: fixed;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $gray;
+    padding-top: 30vh;
+  }
+  .page-header__nav--active {
+    transform: translateY(0);
+  }
+}

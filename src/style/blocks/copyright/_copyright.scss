@@ -19,3 +19,14 @@
 .copyright__item-link:hover {
   color: $beige;
 }
+@media (max-width: 1150px) {
+  .copyright__list {
+    flex-wrap: wrap;
+    max-width: 400px;
+  }
+}
+@media (max-width: 680px) {
+  .copyright__list {
+    justify-content: center;
+  }
+}
