@@ -1,0 +1,16 @@
+.social__list {
+  display: flex;
+}
+.social__item {
+  margin-right: 10px;
+}
+.social__item:last-child {
+  margin-right: 0;
+}
+.social__item-link path {
+  transition: fill 0.3s ease;
+}
+.social__item-link:hover path,
+.social__item-link:focus path {
+  fill: $beige;
+}

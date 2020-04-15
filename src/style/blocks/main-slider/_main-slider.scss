@@ -1,0 +1,55 @@
+.main-slider__container {
+  height: calc(100vh - 129px);
+}
+.main-slider__slide-img {
+  width: 100%;
+}
+.main-slider__slide-description-wrap {
+  position: absolute;
+  right: 0;
+  top: 48%;
+  transform: translateY(-50%);
+  background-color: rgba($color: $white, $alpha: 0.85);
+  width: 100%;
+  max-width: 510px;
+  padding: 15px 20px 19px 29px;
+}
+.main-slider__slide-description-title {
+  font-family: 'Playfair';
+  font-style: italic;
+  font-size: 30px;
+  line-height: 30px;
+  color:  $black;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.main-slider__slide-description {
+  font-size: 18px;
+  line-height: 24px;
+  color: $black;
+}
+
+.main-slider__pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: flex;
+}
+.swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+  background-color: $white;
+  border: 1px solid $black;
+  transition: background-color 0.3s ease;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.swiper-pagination-bullet:last-child {
+  margin-right: 0;
+}
+.swiper-pagination-bullet-active {
+  background-color: $beige;
+}

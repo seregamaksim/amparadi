@@ -1,0 +1,121 @@
+.questions {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  transform: translateY(calc(100% - 28px));
+  transition: transform 0.3s ease;
+}
+.questions--active {
+  transform: translateY(0);
+}
+.questions__btn {
+  width: 84px;
+  height: 28px;
+  font-size: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+.questions__btn svg {
+  transition-property: opacity, transform;
+  transition-duration: 0.3s;
+  transition-delay: 0, 0.3s;
+  transition-timing-function: ease;
+  // animation: close 0.3s ease forwards;
+  // animation-play-state: paused;
+}
+.questions__btn--active svg {
+  animation: open 0.3s ease forwards;
+}
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(180deg);
+  }
+}
+// @keyframes close {
+//   0% {
+//     opacity: 1;
+//     transform: rotate(180deg);
+    
+//   }
+//   100% {
+//   }
+// }
+.questions__btn:hover {
+  background-color: $beige;
+}
+.questions__list {
+  display: flex;
+}
+.questions__item {
+  padding: 13px 21px 8px 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 172px;
+  width: 100%;
+  max-width: 33.3%;
+}
+.questions__item--beige {
+  background-color: $beige;
+}
+.questions__item--white {
+  background-color: $white;
+}
+.questions__item--black {
+  background-color: $black;
+}
+.questions__item-title {
+  font-family: 'Playfair';
+  font-size: 28px;
+  line-height: 30px;
+  color: $black;
+  margin-bottom: 5px;
+}
+
+.questions__item-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: $black;
+  margin-top: auto;
+  margin-bottom: 12px;
+}
+.questions__item-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: $white;
+  align-self: flex-end;
+  position: relative;
+}
+.questions__item-link:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgba($color: $white, $alpha: 0.85);
+  transition: width 0.3s ease;
+}
+.questions__item-link--black:after {
+  background-color: rgba($color: $black, $alpha: 0.85);
+}
+.questions__item-link:hover::after,
+.questions__item-link:focus::after {
+  width: 100%;
+}
+.questions__item-link--black {
+  color: $black;
+}
+.questions__item-title--white,
+.questions__item-text--white {
+  color: $white;
+}

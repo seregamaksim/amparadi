@@ -1,0 +1,21 @@
+.copyright__list {
+  display: flex;
+}
+.copyright__item,
+.copyright__item-link {
+  font-size: 12px;
+  line-height: 24px;
+  color: $white;
+}
+.copyright__item {
+  margin-right: 16px;
+}
+.copyright__item:last-child {
+  margin-right: 0;
+}
+.copyright__item-link {
+  transition: color 0.3s ease;
+}
+.copyright__item-link:hover {
+  color: $beige;
+}

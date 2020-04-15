@@ -6,10 +6,21 @@
 @import 'base/base';
 
 @import 'layout/header';
+@import 'layout/footer';
 
 @import 'blocks/main-menu/main-menu';
 @import 'blocks/submenu/submenu';
-
-
+@import 'blocks/main-slider/main-slider';
+@import 'blocks/questions/questions';
+@import 'blocks/footer-description/footer-description';
+@import 'blocks/copyright/copyright';
+@import 'blocks/social/social';
+@import 'blocks/language/language';
+@import 'blocks/input/input';
+@import 'blocks/checkbox-group/checkbox-group';
+@import 'blocks/button/button';
+@import 'blocks/modal/modal';
+@import 'blocks/riservata-modal/riservata-modal';
+@import 'blocks/close-modal/close-modal';
 
 @import 'pages/index';

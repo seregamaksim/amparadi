@@ -1,0 +1,14 @@
+.close-modal {
+  font-size: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 17px;
+  top: 7px;
+}
+.close-modal path {
+  transition: fill 0.3s ease;
+}
+.close-modal:hover path,
+.close-modal:focus path {
+  fill: $beige;
+}

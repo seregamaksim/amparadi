@@ -1,0 +1,22 @@
+.input {
+  position: relative;
+  z-index: 4;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 4px 15px 4px 10px;
+  border: 0;
+  // transition: border-color .3s ease;
+  background-color: transparent;
+  width: 100%;
+  color: $black;
+  border-radius: 0;
+  appearance: none;
+  background-color: $white;
+  // max-width: 184px;
+}
+.input::placeholder {
+  transition: color 0.3s ease;
+}
+.input:focus::placeholder {
+  color: transparent;
+}

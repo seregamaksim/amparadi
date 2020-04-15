@@ -1,0 +1,25 @@
+.page-footer {
+  position: relative;
+  z-index: 2;
+  background-color: $gray;
+}
+.page-footer__container {
+  padding-top: 30px;
+  padding-bottom: 17px;
+}
+.page-footer__top {
+  margin-bottom: 22px;
+}
+.page-footer__bottom,
+.page-footer__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-footer__bottom {
+  justify-content: space-between;
+}
+.page-footer__wrap {
+  width: 100%;
+  max-width: 320px;
+}

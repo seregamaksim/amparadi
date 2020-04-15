@@ -18,7 +18,7 @@ module.exports = {
     rules: [
       {
         test: /\.m?js$/,
-        exclude: /node_modules/,
+        exclude: /node_modules\/(?!(dom7|ssr-window|swiper)\/).*/,
         loader: 'babel-loader',
         options: {
           presets: [

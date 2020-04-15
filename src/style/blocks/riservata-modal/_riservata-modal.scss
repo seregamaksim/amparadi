@@ -1,0 +1,59 @@
+.riservata-modal__container {
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+.riservata-modal__header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.riservata-modal__title,
+.riservata-modal__form-title {
+  font-family: 'Playfair';
+  color: $white;
+}
+.riservata-modal__title {
+  font-size: 24px;
+  line-height: 24px;
+}
+.riservata-modal__content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 76px;
+  padding-right: 76px;
+}
+
+.riservata-modal__form {
+  max-width: 184px;
+}
+.riservata-modal__input {
+  margin-bottom: 7px;
+}
+.riservata-modal__input:last-child {
+  margin-bottom: 0;
+}
+.riservata-modal__form-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.riservata-modal__forgot {
+  display: block;
+  font-size: 12px;
+  line-height: 24px;
+  color: #b5b4b4;
+  margin-top: 5px;
+}
+.riservata-modal__button {
+  margin-top: 14px;
+}
+.riservata-modal__checkbox-wrap {
+  margin-top: 10px;
+}
+.riservata-modal__checkbox {
+  margin-bottom: 10px;
+}
+.riservata-modal__checkbox:last-child {
+  margin-bottom: 0;
+}
