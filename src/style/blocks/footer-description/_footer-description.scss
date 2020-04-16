@@ -61,6 +61,9 @@
     margin-bottom: 20px;
     text-align: center;
   }
+  .footer-description__item--text {
+    display: none;
+  }
   .footer-description__item:last-child {
     max-width: 400px;
     margin: 0 auto;

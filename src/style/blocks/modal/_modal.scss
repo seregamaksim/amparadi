@@ -15,16 +15,19 @@
 }
 .modal__wrap {
   position: relative;
-  // width: 100%;
+  width: 100%;
+  max-width: 595px;
 }
 .modal__container {
-  max-width: 595px;
+  
   width: 100%;
   margin: 0 auto;
   // padding: 0 30px;
   // box-sizing: content-box;
   border-radius: 5px;
   background-color: $gray;
+  overflow: auto;
+  max-height: 80vh;
 }
 .modal--active {
   transform: translateY(0);

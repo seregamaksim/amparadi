@@ -47,6 +47,7 @@
   .page-header__nav {
     position: fixed;
     display: flex;
+    z-index: 2;
     // align-items: center;
     justify-content: center;
     transform: translateY(-100%);

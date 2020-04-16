@@ -57,3 +57,32 @@
 .riservata-modal__checkbox:last-child {
   margin-bottom: 0;
 }
+@media (max-width: 650px) {
+  .riservata-modal__wrap {
+    max-width: 450px;
+  }
+  .riservata-modal__content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .riservata-modal__wrap {
+    max-width: 90vw;
+  }
+  .riservata-modal__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .riservata-modal__content {
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .riservata-modal__left {
+    margin-bottom: 20px;
+  }
+  .riservata-modal__form {
+    max-width: none;
+  }
+}
